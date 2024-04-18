@@ -1,14 +1,14 @@
-STRML.net
+AuSjukwa's simple introduction
 =========
 
-[View Site](http://strml.net)
+[View Site](https://ausjukwa.github.io/)
 
 Building
 --------
 
 ```bash
-git clone git@github.com:STRML/strml.net.git
-cd strml.net
+git clone git@github.com:AuSjukwa/ausjukwa.github.io.git
+cd ausjukwa.github.io
 npm install
 npm run dev
 # Open localhost:4003/index-dev.html in your browser
