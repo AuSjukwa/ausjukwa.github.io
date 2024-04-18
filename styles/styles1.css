@@ -1,0 +1,37 @@
+
+/**
+ * 左边的markdown不太好看，我们渲染它
+ */
+
+#work-text {
+  background-color: #fff;
+}
+
+#work-text,
+#work-text pre {
+  color: #333;
+}
+
+#work-text a {
+  color: #409eff;
+}
+
+#work-text.flipped {
+  -webkit-transform: rotateX(0deg) rotateY(190deg) rotateZ(180deg);
+}
+
+#work-text .md {
+  -webkit-transform: rotateY(190deg) rotateZ(180deg);
+}
+
+/**
+ * 好的，我们准备好
+ *
+ * 3...
+ * 2...
+ * 1...
+ *
+ *
+ * 好了，就是这样！
+ *
+ */

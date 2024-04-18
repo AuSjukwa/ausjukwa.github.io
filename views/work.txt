@@ -1,0 +1,21 @@
+区绍桦
+=========
+
+前端开发 / 计算机科学与技术 / sjukwa88@gmail.com / [github](https://github.com/AuSjukwa)
+
+专业技能
+-------
+
+* 熟悉 Vue2 & Vue3，都有实际⼯作项⽬经验，熟悉 Vue 的响应式原理，两者的 Diff 基本原理
+* 熟悉 Vue3 优化，如 Diff 算法优化、静态提升、事件监听缓存、响应式系统优化
+* 熟悉 React，有实际工作项目经验，熟悉 Fiber、双缓存树、更新流程、Diff 基本原理
+* 掌握 TypeScript、Electron、小程序开发，并有实际工作项目开发经验
+* 掌握前端常用的打包构建工具如 Webpack、Rollup、Vite
+* 熟悉 NodeJS，Docker，具有低代码平台开发经验
+* 对页面布局，HTML 语义化有深刻地理解；熟练掌握 CSS，对页面布局开发有丰富的实战经验
+* 掌握常见的设计模式，如单例模式、策略模式、订阅发布，追求开发高质量、高可维护性的代码
+* 有过前端技术面试官经历，具有较强的学习能力、沟通能力和团队合作精神
+* 积极参与开源
+  * 解决 React concurrent mode 引起的问题[kbar PR](https://github.com/timc1/kbar/pull/335)
+  * 提出[@vue/composition-api issue](https://github.com/vuejs/composition-api/issues/988)
+  * 实现开源[ab-hoc](https://github.com/AuSjukwa/ab-hoc)

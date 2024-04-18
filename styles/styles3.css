@@ -1,0 +1,44 @@
+
+/**
+ * 我们快完成了
+ */
+
+ pre:hover{
+   box-shadow: 0px 0px 40px 5px rgba(255,255,255,0.4);
+ }
+
+ #skip-animation, #pause-resume {
+   display: none;
+ }
+
+/**
+ * 希望你喜欢这个页面
+ *
+ * 灵感来源是来自 Samuel Reed 的自打印和高亮代码的页面的
+ *
+ * 更多可看 https://github.com/STRML/strml.net
+ */
+
+/**
+ * 另外, 你是可以编辑样式的, 可以试一下！
+ *
+ * 例如
+ *
+ * 'text-shadow' 有如下参数:
+ * 'x', 'y', 'blur', 'color'
+ *
+ * 那么如果想要给字体添加倒影效果，
+ * 可以在下面加一个shadow 15px，
+ * 可以再加上一点点模糊
+ */
+
+.value {
+  text-shadow: 0px 15px 1px white;
+}
+
+/**
+ * 快来尝试吧！还有许多你可以做的
+ * 试下调整下文字大小、阴影、动画，或者甚至
+ * 破坏这个页面。我不会阻止你的～
+ */
+

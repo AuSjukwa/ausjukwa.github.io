@@ -1,0 +1,95 @@
+/**
+ * Inspired by https://github.com/STRML/strml.net.
+ *
+ * 大家好! 我叫区绍桦, 我是一名前端开发者, 计算机科学与技术出身.
+ *
+ * 希望可以通过这个可交互的网页简单介绍自己.
+ *
+ * 让我们开始吧!
+ */
+
+/**
+ * 我们开始吧，先给所有元素加上过渡效果
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+/**
+ * 这好像没有什么变化
+ *
+ * 白底黑字有点无聊啊, 让我们加点样式
+ */
+
+html {
+  background: #0c0f14;
+}
+
+pre, a {
+  color: white;
+}
+
+/**
+ * 这样好一点了
+ *
+ * 但是这个编辑区有点宽了
+ *
+ * 我要让它看起来舒服些
+ */
+
+pre:not(:empty) {
+  overflow: auto;
+  background: #1b2123;
+  border-radius: 6px;
+  max-height: 45vh;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 1vh 0.5vw;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+  margin: 1vh 0.5vw;
+}
+
+/**
+ * 好了, 我们开始填充屏幕了
+ * 让我们做下准备工作
+ */
+
+#style-text {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+/**
+ * 这样好点了. 但是所有代码都是白色的啊~
+ * 让我们把它们更好阅读吧
+ */
+
+.comment       { color: #6a9955; font-style: italic; }
+.selector      { color: #d7ba7d; }
+.selector .key { color: #9cdcfe; }
+.key           { color: #9cdcfe; }
+.value         { color: #ce9178; }
+.value.px      { color: #ce9178; }
+
+/**
+ * 这样就足够了吗？还不够，我们继续看吧！
+ */
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+#style-text {
+  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  max-height: 93.1vh;
+}
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}
