@@ -1,6 +1,7 @@
 'use strict';
 var webpack = require('webpack');
 var path = require('path');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 // Builds bundle usable inside <script>.
 module.exports = {
@@ -11,7 +12,7 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, "/dist"),
-    filename: "[name].js",
+    filename: "[name][contenthash].js",
     libraryTarget: "umd",
     library: "app",
   },
@@ -28,6 +29,14 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      minify: false,
+      template: 'index.html',
+      inject: 'head',
+      scriptLoading: 'blocking'
+    })
+  ],
   resolve: {
     fallback: {
       util: require.resolve('util/')
@@ -35,7 +44,6 @@ module.exports = {
   },
   devServer: {
     contentBase: __dirname,
-    publicPath: '/dist',
     compress: true,
     port: 4003,
   },
