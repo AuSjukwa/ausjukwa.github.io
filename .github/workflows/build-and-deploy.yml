@@ -9,7 +9,7 @@ on:
         branches:
             - main
 jobs:
-    lint:
+    build-and-deploy:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
