@@ -24,16 +24,8 @@
 
 /**
  * 这样好多了
- *
- * If you want to contact me, use the PGP keys on the left.
- *
- * You know, if you're into that sort of thing.
  */
 
-#pgp-text {
-  font-size: 12px;
-  color: #ada;
-}
 .terminal-user {
   color: rgb(91, 104, 117);
 }

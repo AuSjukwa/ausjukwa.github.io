@@ -1,11 +1,9 @@
 /**
- * Inspired by https://github.com/STRML/strml.net.
+ * Inspired by https://github.com/STRML/strml.net
  *
- * 大家好! 我叫区绍桦, 我是一名前端开发者, 计算机科学与技术出身.
+ * 大家好！我叫区绍桦，我是一名前端开发者，计算机科学与技术出身.
  *
  * 希望可以通过这个可交互的网页简单介绍自己.
- *
- * 让我们开始吧!
  */
 
 /**
@@ -25,7 +23,6 @@
 html {
   background: #0c0f14;
 }
-
 pre, a {
   color: white;
 }
@@ -55,6 +52,7 @@ pre:not(:empty) {
 
 /**
  * 好了, 我们开始填充屏幕了
+ *
  * 让我们做下准备工作
  */
 
